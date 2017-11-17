@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.roy.unique.MainActivity">
+
+    <TextView
+        android:id="@+id/labelDeviceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device ID (IMEI/MEID)"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"/>
+
+    <TextView
+        android:id="@+id/tvDeviceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/labelDeviceId"
+        tools:text="abcedfg"/>
+
+    <TextView
+        android:id="@+id/labelSerial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Serial ID"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvDeviceId"
+        />
+
+    <TextView
+        android:id="@+id/tvSerial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/labelSerial"
+        tools:text="abcedfg"/>
+
+    <TextView
+        android:id="@+id/labelMac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="MAC Address"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvSerial"
+        />
+
+    <TextView
+        android:id="@+id/tvMac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/labelMac"
+        tools:text="MAC Address"/>
+
+    <TextView
+        android:id="@+id/labelBle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Bluetooth Address"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvMac"
+        />
+
+    <TextView
+        android:id="@+id/tvBle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/labelBle"
+        tools:text="Bluetooth Address"/>
+
+    <TextView
+        android:id="@+id/labelAndroidId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Android ID"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvBle"
+        />
+
+    <TextView
+        android:id="@+id/tvAndroidId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/labelAndroidId"
+        tools:text="Android ID"/>
+
+    <TextView
+        android:id="@+id/labelUuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="UUID"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvAndroidId"
+        />
+
+    <TextView
+        android:id="@+id/tvUuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/labelUuid"
+        tools:text="UUID"/>
+
+    <TextView
+        android:id="@+id/labelAdverId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Advertisement Id"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvUuid"
+        />
+
+    <TextView
+        android:id="@+id/tvAdverId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/labelAdverId"
+        tools:text="Advertisement Id"/>
+
+
+</android.support.constraint.ConstraintLayout>
